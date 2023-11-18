@@ -15,3 +15,4 @@ jobs:
           version: nightly
       - run: forge --version
       - run: forge build --sizes
+      - run: forge fmt --check
